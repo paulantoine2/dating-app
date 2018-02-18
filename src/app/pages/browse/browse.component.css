@@ -1,0 +1,59 @@
+#card {
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  position: absolute;
+  background-size: cover;
+  background-position: center;
+}
+#controls {
+  position: absolute;
+  bottom: 30px;
+  z-index: 100;
+  width: 80%;
+  padding: 0 10%;
+  display: flex;
+  justify-content: space-around;
+}
+#controls button {
+  font-size: 28px;
+  background-color: white;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  vertical-align: middle;
+}
+.pass {
+  color: red;
+}
+.special {
+  color: #ffe234;
+}
+.like {
+  color: #73d945;
+}
+.details {
+  position: absolute;
+  z-index: 100;
+  bottom: 130px;
+  left: 10%;
+  color: #fff;
+  text-shadow: 2px 2px 50px #000;
+}
+.details .username {
+  font-size: 30px;
+  font-weight: bold;
+}
+.details > * {
+  display: inline-block;
+}
+.fade_bot {
+  position: absolute;
+  z-index: 50;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 150px;
+  background: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0));;
+}

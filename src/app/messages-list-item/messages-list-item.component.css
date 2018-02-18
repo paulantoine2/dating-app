@@ -1,0 +1,21 @@
+.thumbnail img{
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+}
+.thumbnail {
+  padding: 10px;
+}
+.username {
+  font-size: 20px;
+  font-weight: 600;
+}
+.message {
+  color: #444444;
+}
+.item {
+  display: flex;
+  justify-items: flex-start;
+  align-items: center;
+  border-bottom: solid 1px #f4f4f4;
+}

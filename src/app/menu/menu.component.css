@@ -1,0 +1,29 @@
+#menu, #menu_bg {
+  position: fixed;
+  left: 0;
+  top: 50px;
+  bottom: 0;
+}
+#menu_bg {
+  background-color: #333;
+  right: 0;
+  z-index: 200;
+  opacity: 0.3;
+}
+#menu {
+  background-color: #ffffff;
+  z-index: 300;
+}
+h2 {
+  padding: 20px;
+  font-size: 22px;
+  background-color: deepskyblue;
+  color: #fff;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+button {
+  display: block;
+  font-size: 18px;
+  padding: 10px 20px;
+}
