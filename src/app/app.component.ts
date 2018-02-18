@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { NavigationEnd, NavigationError, NavigationStart, Router } from '@angular/router';
+import { NavigationEnd, NavigationError, NavigationStart, Router, RouterEvent } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -11,7 +11,7 @@ export class AppComponent {
   showMenu = true;
 
   constructor(private router: Router) {
-    router.events.subscribe( (event: Event) => {
+    router.events.subscribe( (event: RouterEvent) => {
       if (event instanceof NavigationStart) {
         this.showMenu = false;
       }

@@ -1,11 +1,3 @@
-#card {
-  width: 100%;
-  height: 100%;
-  bottom: 0;
-  position: absolute;
-  background-size: cover;
-  background-position: center;
-}
 #controls {
   position: absolute;
   bottom: 30px;
@@ -33,21 +25,6 @@
 .like {
   color: #73d945;
 }
-.details {
-  position: absolute;
-  z-index: 100;
-  bottom: 130px;
-  left: 10%;
-  color: #fff;
-  text-shadow: 2px 2px 50px #000;
-}
-.details .username {
-  font-size: 30px;
-  font-weight: bold;
-}
-.details > * {
-  display: inline-block;
-}
 .fade_bot {
   position: absolute;
   z-index: 50;
@@ -56,4 +33,12 @@
   bottom: 0;
   height: 150px;
   background: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0));;
+}
+.container {
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
 }

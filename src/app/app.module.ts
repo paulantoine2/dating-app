@@ -18,6 +18,7 @@ import { routes } from './app.routing';
 import { MenuComponent } from './menu/menu.component';
 import { MessagesListItemComponent } from './messages-list-item/messages-list-item.component';
 import { MessageComponent } from './message/message.component';
+import { ProfileCardComponent } from './profile-card/profile-card.component';
 
 
 @NgModule({
@@ -34,7 +35,8 @@ import { MessageComponent } from './message/message.component';
     MessagesDetailComponent,
     MenuComponent,
     MessagesListItemComponent,
-    MessageComponent
+    MessageComponent,
+    ProfileCardComponent
   ],
   imports: [
     BrowserModule,
