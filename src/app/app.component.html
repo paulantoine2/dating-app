@@ -1,11 +1,2 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<header>
-  <button (click)="toggleMenu()"><i class="fas fa-bars"></i></button>
-  <h1>{{title}}</h1>
-  <button routerLink="/messages"><i class="far fa-comments"></i></button>
-</header>
-<app-menu *ngIf="showMenu"></app-menu>
-<main>
-  <router-outlet></router-outlet>
-</main>
+<router-outlet></router-outlet>
 
